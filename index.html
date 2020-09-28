@@ -132,8 +132,12 @@
                   </ul> -->
                   <!-- <h5>Contact me here!</h5>
                   <p>Email: <a href="#">himeshparm10@gmail.com</a></p> -->
-                   <button type="submit" class=" btn btn-primary"><a href="mailto:himeshparm10@gmail.com">Send Message</a></button> 
-                    <span class="MuiTouchRipple-root"></span></a>
+                   <button onclick="email()" type="submit" class=" btn btn-primary"><a href="mailto:himeshparm10@gmail.com">Send Message</a></button> 
+                    <script>
+                    function email() {
+                        var str = window.open('mailto:himeshparm10@gmail.com', '_blank');
+                    }
+                    </script>
                   <!-- <p>Phone: <a href="#"></a></p> -->
                 </div>
               </div>
